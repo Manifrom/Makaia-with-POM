@@ -50,5 +50,6 @@ public class DeleteContact extends WebDriverServiceImpl {
 		WebElement elerecords = locateElement("class", "x-paging-info");
 		verifyPartialText(elerecords, "No records to display");
 		
+		System.out.println("Program Done");
 	}
 }
